@@ -1,6 +1,15 @@
 import {
-  RomajiDictionaryItem,
-  indexedRomajiDictionary,
+  IndexedRomajiDictionary as IndexedRomajiDictionary_,
+  RomajiDictionaryItem as RomajiDictionaryItem_,
+  indexedRomajiDictionary as indexedRomajiDictionary_,
+} from './romaji-dictionary'
+
+export type IndexedRomajiDictionary = IndexedRomajiDictionary_
+export type RomajiDictionaryItem = RomajiDictionaryItem_
+export const indexedRomajiDictionary = indexedRomajiDictionary_
+export {
+  RomajiDictionary,
+  romajiDictionary,
 } from './romaji-dictionary'
 
 /**
@@ -45,5 +54,3 @@ export const convertToRegExp = (str: string): string => {
   }
   return result
 }
-
-export * from './romaji-dictionary'
