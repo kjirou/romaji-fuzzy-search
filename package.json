@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/kjirou/romaji-kensaku/issues"
   },
-  "homepage": "https://github.com/kjirou/romaji-kensaku#readme"
+  "homepage": "https://github.com/kjirou/romaji-kensaku#readme",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
 }
