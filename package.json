@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/kjirou/romaji-kensaku/issues"
   },
-  "homepage": "https://github.com/kjirou/romaji-kensaku#readme"
+  "homepage": "https://github.com/kjirou/romaji-kensaku#readme",
+  "devDependencies": {
+    "@types/node": "^16.4.1",
+    "typescript": "^4.3.5"
+  }
 }
