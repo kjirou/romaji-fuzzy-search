@@ -1,17 +1,23 @@
 {
   "name": "romaji-fuzzy-search",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Generates a regular expression for \"Romaji Fuzzy Search\"",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
   "scripts": {
     "build": "tsc",
+    "publish-to-npm": "rm -rf ./dist && npm run build && npm publish",
     "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kjirou/romaji-fuzzy-search.git"
   },
-  "keywords": [],
+  "keywords": [
+    "romaji",
+    "search",
+    "regexp"
+  ],
   "author": {
     "name": "kjirou",
     "url": "https://github.com/kjirou"
@@ -21,6 +27,14 @@
     "url": "https://github.com/kjirou/romaji-fuzzy-search/issues"
   },
   "homepage": "https://github.com/kjirou/romaji-fuzzy-search#readme",
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "README.md",
+    "dist",
+    "package.json"
+  ],
   "devDependencies": {
     "@types/jest": "^26.0.24",
     "@types/node": "^16.4.1",
