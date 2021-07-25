@@ -4,7 +4,7 @@
 
 This module generates a regular expression for "Romaji Fuzzy Search".
 
-## :thinking_face: "Romaji Fuzzy Search"?
+## :thinking: "Romaji Fuzzy Search"?
 
 It's a original concept.
 
