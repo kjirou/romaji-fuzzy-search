@@ -42,4 +42,7 @@ describe('convertToRegExp', () => {
   test.each(table)('$name', ({args, expected}) => {
     expect(convertToRegExp(...args)).toBe(expected)
   })
+  test('it can change the romaji dictionary', () => {
+    expect(convertToRegExp('ab', {b: ['b', 'び', 'ビ']})).toBe('a(?:b|び|ビ)')
+  })
 })
