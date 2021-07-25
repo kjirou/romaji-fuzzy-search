@@ -19,7 +19,7 @@ const escapeRegExp = (str: string): string => {
   return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 }
 
-export const convertToRegExp = (str: string): string => {
+export const convertToRegExp = (str: string, indexedDictionary: IndexedRomajiDictionary = indexedRomajiDictionary): string => {
   const createRomajiPattern = (romajiDictionaryItem: RomajiDictionaryItem): string =>
     `(?:${romajiDictionaryItem.map(escapeRegExp).join('|')})`
   let pointer = 0
@@ -38,7 +38,7 @@ export const convertToRegExp = (str: string): string => {
     }
     let replaced = false
     for (let phraseLength = 3; phraseLength >= 1; phraseLength--) {
-      const replacement = indexedRomajiDictionary[phrase.slice(0, phraseLength)]
+      const replacement = indexedDictionary[phrase.slice(0, phraseLength)]
       if (replacement) {
         result += createRomajiPattern(replacement)
         pointer += phraseLength
