@@ -3,12 +3,13 @@
     "declaration": true,
     "esModuleInterop": true,
     "lib": [
-      "esnext"
+      "es2020"
     ],
+    "module": "commonjs",
     "moduleResolution": "node",
     "outDir": "./dist",
     "strict": true,
-    "target": "esnext"
+    "target": "es2020"
   },
   "include": [
     "./src"

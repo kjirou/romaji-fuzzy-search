@@ -1,6 +1,6 @@
 {
   "name": "romaji-fuzzy-search",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Generates a regular expression for \"Romaji Fuzzy Search\"",
   "main": "dist/index.js",
   "types": "dist/index.d.js",
