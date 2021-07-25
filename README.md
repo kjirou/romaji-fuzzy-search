@@ -2,15 +2,21 @@
 
 ![Run tests](https://github.com/kjirou/romaji-kensaku/workflows/Run%20tests/badge.svg)
 
-This module generates a regular expression for "romaji fuzzy search".
+This module generates a regular expression for "Romaji Fuzzy Search".
 
-## 🚀 Installation
+## :thinking_face: "Romaji Fuzzy Search"?
+
+It's a original concept.
+
+Allows you to search Japanese Hiragana and Katakana from a query consisting of alphabets.
+
+## :rocket: Installation
 
 ```
 npm install romaji-kensaku
 ```
 
-## 👀 Usage
+## :cat: Usage
 
 ```js
 const {convertToRegExp} = require('romaji-kensaku')
