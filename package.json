@@ -1,5 +1,5 @@
 {
-  "name": "romaji-kensaku",
+  "name": "romaji-fuzzy-search",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,18 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kjirou/romaji-kensaku.git"
+    "url": "git+https://github.com/kjirou/romaji-fuzzy-search.git"
   },
   "keywords": [],
   "author": {
     "name": "kjirou",
     "url": "https://github.com/kjirou"
   },
-  "license": "SEE LICENSE IN https://github.com/kjirou/romaji-kensaku/blob/main/LICENSE",
+  "license": "SEE LICENSE IN https://github.com/kjirou/romaji-fuzzy-search/blob/main/LICENSE",
   "bugs": {
-    "url": "https://github.com/kjirou/romaji-kensaku/issues"
+    "url": "https://github.com/kjirou/romaji-fuzzy-search/issues"
   },
-  "homepage": "https://github.com/kjirou/romaji-kensaku#readme",
+  "homepage": "https://github.com/kjirou/romaji-fuzzy-search#readme",
   "devDependencies": {
     "@types/jest": "^26.0.24",
     "@types/node": "^16.4.1",
