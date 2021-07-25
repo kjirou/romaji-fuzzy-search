@@ -22,5 +22,5 @@ npm install romaji-kensaku
 const {convertToRegExp} = require('romaji-kensaku')
 const query = 'kyayaak'
 const regExp = convertToRegExp('kyayaak')  // -> "(?:kya|きゃ|キャ)(?:ya|や|ヤ)(?:a|あ|ア)k"
-const matcher = new RegExp(regExp, 'i')  // I think it's better to specify the i option.
+const matcher = new RegExp(regExp, 'i')  // I think it's better to specify the "i" option.
 ```
