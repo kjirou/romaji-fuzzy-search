@@ -1,14 +1,14 @@
 import {
-  IndexedRomajiDictionary as IndexedRomajiDictionary_,
-  RomajiDictionaryItem as RomajiDictionaryItem_,
-  indexedRomajiDictionary as indexedRomajiDictionary_,
+  IndexedRomajiDictionary,
+  RomajiDictionaryItem,
+  indexedRomajiDictionary,
 } from './romaji-dictionary'
 
-export type IndexedRomajiDictionary = IndexedRomajiDictionary_
-export type RomajiDictionaryItem = RomajiDictionaryItem_
-export const indexedRomajiDictionary = indexedRomajiDictionary_
 export {
+  IndexedRomajiDictionary,
   RomajiDictionary,
+  RomajiDictionaryItem,
+  indexedRomajiDictionary,
   romajiDictionary,
 } from './romaji-dictionary'
 
