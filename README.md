@@ -6,7 +6,7 @@ This module generates a regular expression for "Romaji Fuzzy Search".
 
 ## :thinking: "Romaji Fuzzy Search"?
 
-It's a original concept.
+It's an original concept.
 
 Allows you to search Japanese Hiragana and Katakana from a query consisting of alphabets.
 
